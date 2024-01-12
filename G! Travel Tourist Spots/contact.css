@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+body {
+    font-family: 'Courier', Courier;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(BoacCathedral.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #33333300; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Rest of your CSS styles... */
+/* (back-home-btn, main, .contact-info, etc.) */
+.back-home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #98ddde; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-home-btn:hover {
+    background-color: #77c2c3; /* Button background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info div {
+    flex: 0 1 45%;
+    padding: 10px;
+    background-color: #ffffff00; /* Div background color */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle box shadow */
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff; /* Heading text color */
+}
+
+.contact-info p {
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.contact-info a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    color: #fff; /* Link text color */
+    background-color: #98ddde; /* Link background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-info a:hover {
+    background-color: #77c2c3; /* Link background color on hover */
+}

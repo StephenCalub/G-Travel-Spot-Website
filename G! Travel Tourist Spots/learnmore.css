@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: 'Courier', Courier;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(BoacCathedral.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #98ddde00;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+    
+  h1 {
+    font-size: 30px; /* Adjust the font size */
+    margin: 0; /* Remove default margin */
+    color: #fbf9f9; /* Default font color */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px; /* Add padding to the main content */
+    margin-top: 200px; /* Adjust top margin to create space for the header */
+    color: #ffffff; /* Default font color */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #33333300;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+
+/* Back button styles */
+.back-button {
+    position: absolute;
+    top: 20px; /* Adjust top position */
+    right: 60px; /* Adjust right position */
+    padding: 10px 15px;
+    background-color: #98ddde;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #77c2c3;
+  }
+  
+  /* Rest of your CSS */
+  /* ... */
+  
